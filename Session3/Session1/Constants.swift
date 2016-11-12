@@ -15,3 +15,6 @@ let ENEMY_BULLET_MASK   = UInt32(1 << 3)
 
 let PLAYER_BULLET_TEXTURE = SKTexture(imageNamed: "bullet-single")
 let ENEMY_BULLET_TEXTURE = SKTexture(imageNamed: "bullet-round")
+
+let PLAYER_TEXTURE = SKTexture(imageNamed: "plane")
+let ENEMY_TEXTURE = SKTexture(imageNamed: "plane1")

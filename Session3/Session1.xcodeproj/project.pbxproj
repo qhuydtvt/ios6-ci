@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		181ED7521DD6FEE30030BE3C /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181ED7511DD6FEE30030BE3C /* Controller.swift */; };
 		181ED7541DD7039B0030BE3C /* EnemyBulletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181ED7531DD7039B0030BE3C /* EnemyBulletController.swift */; };
+		181ED7561DD712280030BE3C /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181ED7551DD712280030BE3C /* PlayerController.swift */; };
+		181ED7581DD71AD20030BE3C /* EnemyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181ED7571DD71AD20030BE3C /* EnemyController.swift */; };
 		184941451DD4A8310055C2FC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184941441DD4A8310055C2FC /* Utils.swift */; };
 		184941481DD4BFF60055C2FC /* PlayerBulletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184941471DD4BFF60055C2FC /* PlayerBulletController.swift */; };
 		1849414B1DD4C5330055C2FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849414A1DD4C5330055C2FC /* Constants.swift */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		181ED7511DD6FEE30030BE3C /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		181ED7531DD7039B0030BE3C /* EnemyBulletController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyBulletController.swift; sourceTree = "<group>"; };
+		181ED7551DD712280030BE3C /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		181ED7571DD71AD20030BE3C /* EnemyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyController.swift; sourceTree = "<group>"; };
 		184941441DD4A8310055C2FC /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		184941471DD4BFF60055C2FC /* PlayerBulletController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerBulletController.swift; sourceTree = "<group>"; };
 		1849414A1DD4C5330055C2FC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				184941471DD4BFF60055C2FC /* PlayerBulletController.swift */,
 				181ED7511DD6FEE30030BE3C /* Controller.swift */,
 				181ED7531DD7039B0030BE3C /* EnemyBulletController.swift */,
+				181ED7551DD712280030BE3C /* PlayerController.swift */,
+				181ED7571DD71AD20030BE3C /* EnemyController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 			files = (
 				181ED7541DD7039B0030BE3C /* EnemyBulletController.swift in Sources */,
 				18E3A2571DCDCC940063CF42 /* GameScene.swift in Sources */,
+				181ED7581DD71AD20030BE3C /* EnemyController.swift in Sources */,
+				181ED7561DD712280030BE3C /* PlayerController.swift in Sources */,
 				18E3A2591DCDCC940063CF42 /* GameViewController.swift in Sources */,
 				18E3A2511DCDCC940063CF42 /* AppDelegate.swift in Sources */,
 				184941481DD4BFF60055C2FC /* PlayerBulletController.swift in Sources */,

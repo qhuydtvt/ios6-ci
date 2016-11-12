@@ -18,6 +18,10 @@ extension CGPoint {
         return CGPoint(x: self.x + x, y: self.y + y)
     }
     
+    func add(vector: CGVector) -> CGPoint {
+        return CGPoint(x: self.x + vector.dx, y: self.y + vector.dy)
+    }
+    
     func distance(other: CGPoint) -> CGFloat {
         let dx = self.x - other.x
         let dy = self.y - other.y

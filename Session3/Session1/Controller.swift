@@ -9,7 +9,9 @@
 import SpriteKit
 
 class Controller {
+    
     let view: SKSpriteNode
+    var parent: SKNode!
     
     init(view: SKSpriteNode) {
         self.view = view
@@ -17,6 +19,7 @@ class Controller {
     
     func config(position: CGPoint, parent: SKNode) {
         self.view.position = position
+        self.parent = parent
         parent.addChild(self.view)
     }
     
